@@ -343,7 +343,7 @@ class EPub
     cwd = @uuid
 
     archive = archiver("zip", {zlib: {level: 9}})
-    output = fs.createWriteStream self.options.output
+    output = self.options.output
     if self.options.verbose then console.log "Zipping temp dir to", self.options.output
     archive.append("application/epub+zip", {store:true, name:"mimetype"})
     archive.directory cwd + "/META-INF", "META-INF"

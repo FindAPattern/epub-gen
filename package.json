@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cyrilis/epub-gen.git"
+    "url": "https://github.com/FindAPattern/epub-gen.git"
   },
   "keywords": [
     "epub",
@@ -21,9 +21,9 @@
   "author": "Cyril Hou <houshoushuai@gmail.com> (http://cyrilis.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cyrilis/epub-gen/issues"
+    "url": "https://github.com/FindAPattern/epub-gen/issues"
   },
-  "homepage": "https://github.com/cyrilis/epub-gen",
+  "homepage": "https://github.com/FindAPattern/epub-gen",
   "dependencies": {
     "archiver": "^3.0.0",
     "cheerio": "^0.22.0",
